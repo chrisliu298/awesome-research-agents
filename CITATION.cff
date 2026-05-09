@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Awesome Research Agents"
+type: software
+authors:
+  - family-names: "Liu"
+    given-names: "Chris Yuhao"
+repository-code: "https://github.com/chrisliu298/awesome-research-agents"
+url: "https://github.com/chrisliu298/awesome-research-agents"
+abstract: "A curated collection of research agents, skill libraries, autonomous research loops, paper-writing pipelines, MCP servers, and benchmarks built around Claude Code, OpenAI Codex CLI, and adjacent coding-agent CLIs for AI/ML research."
+license: "CC0-1.0"
+version: "v0.1.0"
+date-released: "2026-05-09"

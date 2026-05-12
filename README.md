@@ -405,7 +405,7 @@ If you find this resource useful, please cite it as:
 ```bibtex
 @software{awesome-research-agents,
   title = {{Awesome Research Agents}},
-  author = {Liu, Chris Yuhao},
+  author = {Liu, Chris Yuhao and others},
   year = {2026},
   url = {https://github.com/chrisliu298/awesome-research-agents},
   version = {v0.1.0}

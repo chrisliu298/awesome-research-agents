@@ -235,6 +235,10 @@ Research-program orchestration: hypothesis generation, ranking, evolution, exper
 - **[The AI Scientist-v2](https://github.com/sakanaai/ai-scientist-v2)** — agentic-tree-search research system
   - *(2025, [adjacent])* Extends AI Scientist toward less template-bound ML research using progressive agentic tree search, an experiment-manager agent, analysis, manuscript writing, and figure feedback. It is a useful design reference for experiment-tree exploration, but still requires careful sandboxing and human oversight.
 
+- **NanoResearch: Co-Evolving Skills, Memory, and Policy for Personalized Research Automation** [![arXiv](https://img.shields.io/badge/arXiv-2605.10813-B31B1B?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.10813)
+  - *(2026, [adjacent])* Three-stage research framework (ideation/planning → experimental validation → writing/review) whose distinguishing mechanism is tri-level co-evolution: a skill bank distills recurring operations into reusable procedural rules, a memory module maintains user- and project-bound records that ground planning, and label-free policy learning (SDPO) converts free-form feedback into persistent planner updates. Useful as a personalization reference and a cross-cycle self-evolution alternative to episode-style memory in EvoScientist-class systems.
+  - Code: [OpenRaiser/NanoResearch](https://github.com/OpenRaiser/NanoResearch)
+
 - **[FARS: Fully Automated Research System](https://analemma.ai/blog/introducing-fars/)** — autonomous-research project write-up
   - *(2026, [adjacent])* Describes a scaled AI-research pipeline with ideation, planning, experiment, and writing agents, shared filesystem memory, open-access literature, GitLab, model endpoints, and GPU clusters. It is useful for infrastructure patterns, but its claims need independent verification.
 
@@ -418,4 +422,4 @@ The list itself is released under [CC0 1.0](LICENSE). Linked resources retain th
 
 ---
 
-*Last updated: 2026-05-09.*
+*Last updated: 2026-05-12.*

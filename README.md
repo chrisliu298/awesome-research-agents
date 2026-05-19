@@ -384,6 +384,11 @@ How researchers and engineers actually build, reason about, and discuss these sy
 - **[CAMEL](https://github.com/camel-ai/camel)** — multi-agent research framework
   - *(2023, [adjacent])* Framework/community for scalable multi-agent systems, stateful memory, dynamic communication, simulated environments, data generation, and agent-scaling research. Include when building agent-lab simulations, not as a drop-in Claude/Codex workflow.
 
+- **AI for Auto-Research: Roadmap & User Guide** [![arXiv](https://img.shields.io/badge/arXiv-2605.18661-B31B1B?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.18661)
+  - *(2026, [adjacent])* End-to-end survey of AI auto-research through April 2026 across four phases (Creation, Writing, Validation, Dissemination) and eight stages, identifying a stage-dependent boundary between reliable assistance on structured, retrieval-grounded, tool-mediated tasks and unreliable autonomy on novel ideas, research-level experiments, and scientific judgment. Ships a unified taxonomy, benchmark suite, tool inventory, cross-stage design principles, and a practitioner-oriented playbook, with a maintained project page and companion list.
+  - Project: [worldbench.github.io/awesome-ai-auto-research](https://worldbench.github.io/awesome-ai-auto-research)
+  - Code: [worldbench/awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research)
+
 ## Open Problems and Gaps
 
 - **Claim-to-artifact provenance:** Every paper claim should map to citations, code commits, run IDs, dataset versions, metric definitions, statistical tests, figures, and reviewer concerns. ARIS, PaperOrchestra, data-to-paper, W&B, and MLflow cover pieces, but no shared schema dominates.
@@ -422,4 +427,4 @@ The list itself is released under [CC0 1.0](LICENSE). Linked resources retain th
 
 ---
 
-*Last updated: 2026-05-12.*
+*Last updated: 2026-05-18.*

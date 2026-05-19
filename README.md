@@ -93,6 +93,7 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [ai-skill-scholar](https://github.com/dsebastien/ai-skill-scholar) *(2026, [CLI-compatible])* — Three skills for scholarly search, citation analysis, and literature review via OpenAlex; two-pass orchestrator with persistent session state.
 - [EvoSkills](https://github.com/EvoScientist/EvoSkills) *(2026, [CLI-compatible])* — Installable research-skill library for ideation, paper planning, experiment pipelines, writing, review, rebuttal, memory, paper navigation, and surveys across Claude Code, Codex, Gemini CLI, Cursor, OpenCode, and DeepAgents.
 - [ML Experiment Tracking Setup skill](https://mcpmarket.com/tools/skills/ml-experiment-tracking-setup-9) *(2026, [CLI-compatible])* — Skill for scaffolding MLflow or W&B experiment-tracking before agent-driven iteration; verify adoption before depending on it.
+- [ResearchClaw](https://github.com/ymx10086/ResearchClaw) *(2025, [CLI-compatible])* — Personal research assistant exposing extensible skills for retrieval, analytics, code execution, and document understanding.
 
 ## Literature Discovery and Evidence Grounding
 
@@ -104,10 +105,29 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) *(2026, [CLI-compatible])* — Lightweight MCP server for searching and analyzing papers through the Semantic Scholar API; unofficial and small.
 - [arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) *(2025, [CLI-compatible])* — Search, download, store, and analyze arXiv papers via MCP, with security guidance on adversarial paper text and prompt injection.
 - [PubMed MCP Server](https://chat.mcp.so/server/pubmed-mcp-server/cyanheads) *(rolling, [CLI-compatible])* — PubMed / NCBI E-utilities MCP with article search, retrieval, research-plan generation, filtering, citation analysis, metadata visualization, and biomedical research-agent scaffolding.
+- [ChatPaper](https://github.com/kaixindelele/ChatPaper) *(2023, [CLI-compatible])* — Open-source paper-summarization and literature-synthesis tool widely adopted as an early LLM-assisted reading workflow.
+- [Tongyi DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) *(2025, [CLI-compatible])* — Alibaba open-source agentic LLM specialized for long-horizon deep information seeking and report synthesis.
 - [OpenScholar](https://arxiv.org/abs/2411.14199) *(2024, [adjacent])* — Retrieval-augmented scholarly assistant over a large open-access corpus with ScholarQABench-style evaluation; canonical grounding layer, not a CLI workflow. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/akariasai/openscholar)
 - [STORM](https://arxiv.org/abs/2402.14207) *(2024, [adjacent])* — Long-form grounded articles via perspective discovery, simulated writer-expert chat, outline organization, and drafting from retrieved sources; Co-STORM adds collaborative discourse. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/stanford-oval/storm)
 - [Gemini Deep Research Agent](https://ai.google.dev/gemini-api/docs/interactions/deep-research) *(2026, [adjacent])* — API-level deep-research agent for planning, executing, and synthesizing multi-step research with background execution, planning viz, MCP, and document input.
 - [OpenNovelty](https://arxiv.org/abs/2601.01576) *(2026, [adjacent])* — Agentic novelty-assessment pipeline that extracts claims, retrieves prior work, builds a hierarchical taxonomy, compares contributions against full texts, and produces evidence-grounded novelty reports. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/january-blue/OpenNovelty)
+- [LitLLM (paper)](https://arxiv.org/abs/2402.01788) *(2024, [adjacent])* — Literature-review toolkit paper integrating LLMs with academic databases for dense retrieval over scientific corpora.
+- [PaSa](https://arxiv.org/abs/2501.10120) *(2025, [adjacent])* — LLM agent for academic search that issues follow-up queries and iteratively refines candidate paper sets like a human probing a topic.
+- [AutoSurvey](https://arxiv.org/abs/2406.10252) *(2024, [adjacent])* — Single-pass automated survey-writing system establishing baseline feasibility for turning retrieved literature into structured drafts.
+- [SurveyX](https://arxiv.org/abs/2502.14776) *(2025, [adjacent])* — Academic survey-automation system evaluated separately on content quality, structure quality, and citation accuracy.
+- [SurveyForge](https://arxiv.org/abs/2503.04629) *(2025, [adjacent])* — Survey-writing system learning outline heuristics from human surveys and using memory-driven content generation.
+- [LiRA](https://arxiv.org/abs/2510.05138) *(2025, [adjacent])* — Multi-agent literature-review generator splitting retrieval, verification, organization, and writing into specialized roles.
+- [Agentic AutoSurvey](https://arxiv.org/abs/2509.18661) *(2025, [adjacent])* — Agentic survey-generation workflow with dedicated agents for retrieval, organization, and narrative synthesis.
+- [IterSurvey](https://arxiv.org/abs/2510.21900) *(2025, [adjacent])* — Literature-survey agent treating outline generation as iterative planning with stability checks.
+- [InteractiveSurvey](https://arxiv.org/abs/2504.08762) *(2025, [adjacent])* — Interactive survey-generation system letting users customize reference categorization and outline structure.
+- [SurveyG](https://arxiv.org/abs/2510.07733) *(2025, [adjacent])* — Survey-generation framework using a three-layer Foundation/Development/Frontier citation graph and hierarchical traversal.
+- [Citegeist](https://arxiv.org/abs/2503.23229) *(2025, [adjacent])* — Dynamic RAG pipeline for arXiv-scale related-work analysis and citation-aware synthesis.
+- [CiteLLM](https://arxiv.org/abs/2602.23075) *(2026, [adjacent])* — LaTeX-editor-integrated reference-discovery agent designed to reduce hallucinated or unsupported citations.
+- [CHIME](https://arxiv.org/abs/2407.16148) *(2024, [adjacent])* — LLM-assisted hierarchical organization of scientific studies for domain-focused literature-review support.
+- [O-Researcher](https://arxiv.org/abs/2601.03743) *(2026, [adjacent])* — Open-ended deep-research model trained with multi-agent distillation and agentic reinforcement learning.
+- [OpenResearcher](https://arxiv.org/abs/2603.20278) *(2026, [adjacent])* — Fully open trajectory-synthesis pipeline producing long-horizon tool-use supervision for research agents over large document collections.
+- [Elicit](https://elicit.com) *(2024, [adjacent])* — Commercial research assistant for multi-source literature retrieval and report-style synthesis.
+- [OpenAI Deep Research](https://openai.com/index/deep-research) *(2025, [adjacent])* — Commercial deep-research system popularizing iterative multi-source retrieval, reading, state updates, and synthesized reports.
 
 ## Lab Integrations, Notebooks, Experiment Tracking, and Memory
 
@@ -121,6 +141,7 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [Obsidian Memory](https://mcpmarket.com/tools/skills/obsidian-memory-system) *(2026, [CLI-compatible])* — Obsidian vaults and Markdown for project spaces, goals, daily logs, decisions, long-term knowledge, and semantic search; needs stale/conflict audits.
 - [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) *(2024, [adjacent])* — Open standard for connecting AI apps to external data, tools, and workflows; the glue for papers, Zotero, W&B, MLflow, notebooks, and custom lab tools.
 - [AgentRxiv](https://agentrxiv.github.io/) *(2025, [adjacent])* — Shared preprint-server concept for autonomous research agents to retrieve and build on prior agent-generated work; quality-control and contamination risks.
+- [ToolUniverse](https://arxiv.org/abs/2509.23426) *(2025, [adjacent])* — Scientific tool ecosystem exposing computational capabilities through agent-accessible interfaces for democratized AI scientists.
 
 ## Autonomous Execution Loops
 
@@ -128,6 +149,14 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [The Agentic Researcher](https://arxiv.org/abs/2603.15914) *(2026, [CLI-compatible])* — Practical framework for Claude Code, Codex CLI, OpenCode, and Gemini CLI inside sandboxed research environments with research plans, filesystem isolation, GPU/Slurm/Apptainer, and metric discipline. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ZIB-IOL/The-Agentic-Researcher)
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) *(2025, [CLI-compatible])* — Minimal overnight ML loop where an agent reads `program.md`, edits code, trains under budget, checks val bits-per-byte, and keeps or discards changes.
 - [tinyKaggleClaw](https://github.com/lhwcv/tinyKaggleClaw) *(2026, [CLI-compatible])* — Local-first multi-agent runtime for Kaggle-style ML tasks using leader/researcher/trainer, tmux, runtime board, inboxes, training queue, and file-backed state.
+- [DS-Agent](https://arxiv.org/abs/2402.17453) *(2024, [adjacent])* — End-to-end data-science agent using case-based reasoning to support automated analysis workflows.
+- [MLR-Copilot](https://arxiv.org/abs/2408.14033) *(2024, [adjacent])* — Autonomous ML-research workflow that separates idea-generation agents from experiment-execution agents.
+- [AIDE](https://arxiv.org/abs/2502.13138) *(2025, [adjacent])* — ML-engineering agent that frames autonomous improvement as tree search over code variants.
+- [R&D-Agent](https://arxiv.org/abs/2505.14738) *(2025, [adjacent])* — Researcher–Developer dual-agent framework for autonomous ML experimentation and iteration.
+- [Curie](https://arxiv.org/abs/2502.16069) *(2025, [adjacent])* — Standardized scientific-experimentation environment for measuring and improving automated experiment design, execution, and analysis.
+- [SciNav](https://arxiv.org/abs/2603.20256) *(2026, [adjacent])* — Scientific-coding agent framework using pairwise tree-search judgments to choose promising branches.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525) *(2026, [adjacent])* — Execution-guided automated-research workflow using large-scale parallel GPU experiments as selection feedback.
+- [Learning to Discover at Test Time](https://arxiv.org/abs/2601.16175) *(2026, [adjacent])* — Test-time training and RL approach for continuous improvement across math, GPU kernels, and computational biology discovery tasks.
 
 ## End-to-End Research and Hypothesis Systems
 
@@ -135,6 +164,8 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [DeepScientist](https://arxiv.org/abs/2509.26603) *(2025, [CLI-compatible])* — Frames autonomous discovery as long-horizon goal-oriented search with findings memory, research maps, experiment rounds, and idea optimization; ships built-in runners for Codex, Claude Code, Kimi Code, and OpenCode. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ResearAI/DeepScientist)
 - [PARNESS](https://arxiv.org/abs/2605.05258) *(2026, [CLI-compatible])* — Paper harness with dynamic workflow orchestration, full-PDF/code indexing, persistent knowledge graphs, scenario-typed retrieval, and coding-agent integration.
 - [EvoScientist](https://arxiv.org/abs/2603.08127) *(2026, [CLI-compatible])* — Evolving multi-agent AI scientist with Researcher, Engineer, and Evolution Manager agents plus ideation/experimentation memory, CLI/TUI execution, Docker sandboxing, MCP, and skills across a planning-to-verification workflow. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/EvoScientist/EvoScientist)
+- [Biomni](https://github.com/snap-stanford/Biomni) *(2025, [CLI-compatible])* — General-purpose biomedical AI agent for domain-specific tool use, analytics, retrieval, and code execution.
+- [ASI-Evolve](https://github.com/GAIR-NLP/ASI-Evolve) *(2026, [CLI-compatible])* — Evolutionary automated-research system searching over architectures, algorithms, data strategies, and multi-agent behaviors.
 - [Towards an AI co-scientist](https://arxiv.org/abs/2502.18864) *(2025, [adjacent])* — Google Research multi-agent system for generating, debating, ranking, evolving, and meta-reviewing scientific hypotheses with biomedical validation; the generation–reflection–ranking–evolution loop reuses as a Claude/Codex planning architecture.
 - [ResearchAgent](https://arxiv.org/abs/2404.07738) *(2025, [adjacent])* — Iterative research-idea generation over scientific-literature graphs and knowledge stores, with multiple ReviewingAgents evaluating candidate problems, methods, and experiments. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/JinheonBaek/ResearchAgent)
 - [Rethinking the AI Scientist: Interactive Multi-Agent Workflows for Scientific Discovery](https://arxiv.org/abs/2601.12542) *(2026, [adjacent])* — Multi-agent scientific-discovery workflow unifying planning, data analysis, literature search, and novelty detection through a persistent world state, with both semi-autonomous and autonomous modes.
@@ -144,17 +175,62 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [The AI Scientist-v2](https://github.com/sakanaai/ai-scientist-v2) *(2025, [adjacent])* — Extends AI Scientist toward less template-bound ML research via progressive agentic tree search, an experiment-manager agent, analysis, manuscript writing, and figure feedback.
 - [NanoResearch](https://arxiv.org/abs/2605.10813) *(2026, [adjacent])* — Three-stage personalized research framework whose distinguishing mechanism is tri-level co-evolution: skill bank distilling recurring operations, user/project memory grounding planning, and label-free SDPO converting free-form feedback into persistent planner updates. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/OpenRaiser/NanoResearch)
 - [FARS: Fully Automated Research System](https://analemma.ai/blog/introducing-fars/) *(2026, [adjacent])* — Scaled AI-research pipeline with ideation, planning, experiment, and writing agents, shared filesystem memory, open-access literature, GitLab, model endpoints, and GPU clusters; claims need independent verification.
+- [SciAgents](https://arxiv.org/abs/2409.05556) *(2024, [adjacent])* — Multi-agent scientific-discovery system reasoning over scientific knowledge graphs for hypothesis formation.
+- [Chain of Ideas](https://arxiv.org/abs/2410.13185) *(2024, [adjacent])* — Research-ideation agent organizing literature into progressive reasoning chains for idea development.
+- [Nova](https://arxiv.org/abs/2410.14255) *(2024, [adjacent])* — Trend-aware ideation system using iterative planning and search to improve novelty and diversity of LLM-generated ideas.
+- [SciPIP](https://arxiv.org/abs/2410.23166) *(2024, [adjacent])* — Paper-retrieval-grounded idea proposer that anchors generated hypotheses in prior work.
+- [InternAgent](https://arxiv.org/abs/2505.16938) *(2025, [adjacent])* — Closed-loop research system connecting hypothesis generation, implementation, execution, and verification.
+- [SciMaster](https://arxiv.org/abs/2507.05241) *(2025, [adjacent])* — General-purpose scientific-agent system distributing research tasks across specialized multi-agent roles.
+- [Deep Ideation](https://arxiv.org/abs/2511.02238) *(2025, [adjacent])* — Ideation agent that navigates scientific concept networks through structured graph exploration.
+- [Training AI Co-Scientists Using Rubric Rewards](https://arxiv.org/abs/2512.23707) *(2025, [adjacent])* — RL approach that optimizes AI co-scientist plans using rubric rewards extracted from scientific papers.
+- [Build Your Personalized Research Group](https://arxiv.org/abs/2510.15624) *(2025, [adjacent])* — Continual multi-agent science-automation framework modeling a personalized research group with specialized roles.
+- [DeepInnovator](https://arxiv.org/abs/2602.18920) *(2026, [adjacent])* — Ideation model trained under a Next Idea Prediction paradigm to improve scientific-idea quality.
+- [FlowPIE](https://arxiv.org/abs/2603.29557) *(2026, [adjacent])* — Test-time ideation system evolving scientific ideas through flow-guided literature exploration.
+- [Towards a Medical AI Scientist](https://arxiv.org/abs/2603.28589) *(2026, [adjacent])* — Domain-specific AI-scientist system extending autonomous research workflows into medical discovery.
+- [Toward Autonomous Long-Horizon Engineering for ML Research](https://arxiv.org/abs/2604.13018) *(2026, [adjacent])* — Long-horizon ML-research engineering system for multi-step autonomous research orchestration.
+- [AutoSOTA](https://arxiv.org/abs/2604.05550) *(2026, [adjacent])* — End-to-end automated research system for searching state-of-the-art AI model designs.
+- [CORAL](https://arxiv.org/abs/2604.01658) *(2026, [adjacent])* — Autonomous multi-agent evolution framework for open-ended discovery workflows.
 
 ## Manuscript, Figure, Reproduction, and Paper-to-Agent Systems
 
 - [PaperOrchestra](https://arxiv.org/abs/2604.05018) *(2026, [CLI-compatible])* — Multi-agent paper-writing pipeline that turns research notes, logs, figure observations, and templates into LaTeX through Outline, Plotting, Literature Review, Section Writing, and Refinement roles, with prompts, schemas, halt rules, and hardening scripts. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ar9av/PaperOrchestra)
 - [Paper2Agent](https://arxiv.org/abs/2509.06917) *(2025, [CLI-compatible])* — Converts papers and codebases into interactive agents by constructing a paper-specific MCP server validated with generated tests; makes methods, analyses, and figures queryable by downstream coding agents. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/jmiao24/Paper2Agent)
+- [OpenDraft](https://github.com/federicodeponte/opendraft) *(2025, [CLI-compatible])* — Open-source 19-agent system for long-form research-draft generation with citation support.
+- [Paper2Slides](https://github.com/HKUDS/Paper2Slides) *(2025, [CLI-compatible])* — One-click paper-to-slide conversion pipeline using multi-stage RAG for scientific presentations.
 - [data-to-paper](https://arxiv.org/abs/2404.17605) *(2024, [adjacent])* — LLM-driven research from raw data to transparent, backward-traceable manuscripts; key mechanism is programmatic traceability from reported numbers to analysis code with review/rewind/replay and human oversight. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/Technion-Kishony-lab/data-to-paper)
 - [PaperBanana](https://arxiv.org/abs/2601.23265) *(2026, [adjacent])* — Agentic academic-illustration system for methodology diagrams orchestrating Retriever, Planner, Stylist, Visualizer, and Critic agents with PaperBananaBench. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/dwzhu-pku/PaperBanana)
 - [PaperCoder / Paper2Code](https://github.com/going-doer/paper2code) *(2025, [adjacent])* — Multi-agent pipeline converting a research paper into a code repository through planning, architecture/dependency extraction, and modular implementation.
+- [MatPlotAgent](https://arxiv.org/abs/2402.11453) *(2024, [adjacent])* — Agentic scientific-visualization system using VLM feedback to improve data-plot quality.
+- [ScholarCopilot](https://arxiv.org/abs/2504.00824) *(2025, [adjacent])* — Academic-writing model with integrated citation recommendation and measured citation-accuracy bottlenecks.
+- [FutureGen](https://arxiv.org/abs/2503.16561) *(2025, [adjacent])* — Section-specific writing assistant that generates future-work sections with retrieval support.
+- [XtraGPT](https://arxiv.org/abs/2505.11336) *(2025, [adjacent])* — Open-source LLM suite for instruction-guided, context-aware scientific-paper revision.
+- [AutoReproduce](https://arxiv.org/abs/2505.20662) *(2025, [adjacent])* — Paper-lineage-based reproduction system that extracts implicit knowledge from prior-paper chains to rerun cited experiments.
+- [PlotGen](https://arxiv.org/abs/2502.00988) *(2025, [adjacent])* — Multi-agent scientific plotting system using multimodal feedback to refine generated visualizations.
+- [VIS-Shepherd](https://arxiv.org/abs/2506.13326) *(2025, [adjacent])* — Visualization critic that provides constructive feedback for iterative improvement of LLM-generated plots.
+- [CoDA](https://arxiv.org/abs/2510.03194) *(2025, [adjacent])* — Multi-agent collaborative visualization system improving data-visualization quality through role specialization.
+- [Table2LaTeX-RL](https://arxiv.org/abs/2509.17589) *(2025, [adjacent])* — Reinforced multimodal system for converting table images into high-fidelity LaTeX code.
+- [PASS](https://arxiv.org/abs/2501.06497) *(2025, [adjacent])* — Paper-to-presentation system combining slide generation with AI audio delivery.
+- [PosterGen](https://arxiv.org/abs/2508.17188) *(2025, [adjacent])* — Multi-agent paper-to-poster system incorporating aesthetic-aware generation for scientific posters.
+- [PosterForest](https://arxiv.org/abs/2508.21720) *(2025, [adjacent])* — Hierarchical multi-agent collaboration system for scientific paper-to-poster generation.
+- [SlideGen](https://arxiv.org/abs/2512.04529) *(2025, [adjacent])* — Multi-agent slide-generation workflow covering outlining, content mapping, arrangement, speaker notes, and refinement.
+- [Auto-Slides](https://arxiv.org/abs/2509.11062) *(2025, [adjacent])* — Interactive multi-agent system for Beamer-based research-presentation generation and editing.
+- [Talk to Your Slides](https://arxiv.org/abs/2505.11604) *(2025, [adjacent])* — Natural-language slide-editing system using structured data manipulation for efficient presentation revision.
+- [Paper2Video](https://arxiv.org/abs/2510.05096) *(2025, [adjacent])* — Paper-to-video system decomposing generation into slide, subtitle, cursor, and talker builders via the PaperTalker framework.
+- [Paper2Web](https://arxiv.org/abs/2510.15842) *(2025, [adjacent])* — Paper-to-web system converting papers into interactive multimedia-rich academic project pages with a dedicated benchmark.
+- [PaperDebugger](https://arxiv.org/abs/2512.02589) *(2025, [adjacent])* — Plugin-based multi-agent writing environment embedding Reviewer, Enhancer, Scoring, and Researcher agents inside Overleaf.
+- [APRES](https://arxiv.org/abs/2603.03142) *(2026, [adjacent])* — Agentic revision system that discovers paper-quality rubrics predictive of citations and revises manuscripts against them.
+- [LimAgents](https://arxiv.org/abs/2601.11578) *(2026, [adjacent])* — Multi-agent writing system that generates research-limitation statements using OpenReview comments and citation networks.
+- [AutoFigure-Edit](https://arxiv.org/abs/2603.06674) *(2026, [adjacent])* — Text-to-SVG scientific-illustration system producing editable figures for human correction and refinement.
+- [Setting SAIL](https://arxiv.org/abs/2603.18145) *(2026, [adjacent])* — Scientist-in-the-loop visualization framework separating domain logic from code syntax for safer figure generation.
+- [SciFig](https://arxiv.org/abs/2601.04390) *(2026, [adjacent])* — Scientific figure-generation system with rubric-based evaluation for pipeline and framework figures.
+- [TikZilla](https://arxiv.org/abs/2603.03072) *(2026, [adjacent])* — Text-to-TikZ system using domain-specific SFT and RL to make smaller models competitive on scientific vector graphics.
+- [APEX](https://arxiv.org/abs/2601.04794) *(2026, [adjacent])* — Interactive academic-poster editing agent with fine-grained human control for conference-poster preparation.
+- [DeepPresenter](https://arxiv.org/abs/2602.22839) *(2026, [adjacent])* — Presentation-generation agent that conditions revision on rendered slide images rather than reasoning traces alone.
 
 ## Review and Rebuttal Systems
 
+- [AI-Peer-Review](https://github.com/poldrack/ai-peer-review) *(2024, [CLI-compatible])* — Open-source peer-review tool using multiple LLMs for independent reviews followed by meta-review synthesis.
+- [ChatReviewer](https://github.com/nishiwen1214/ChatReviewer) *(2023, [CLI-compatible])* — Deployed ChatGPT-based tool for paper review, strengths/weaknesses analysis, suggested improvements, and response generation.
 - [Paper2Rebuttal / RebuttalAgent](https://arxiv.org/abs/2601.14171) *(2026, [adjacent])* — Rebuttal-specific system that parses papers and reviews, extracts atomic concerns, retrieves evidence, plans response strategy, checks commitments, incorporates author feedback, and drafts formal rebuttals. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/AutoLab-SAI-SJTU/Paper2Rebuttal)
 - [DRPG: Decompose, Retrieve, Plan, Generate for Review-Rebuttal Generation](https://arxiv.org/abs/2601.18081) *(2026, [adjacent])* — Evidence-grounded rebuttal agent with Decomposer, Retriever, Planner, and Executor modules for decomposing reviewer concerns, retrieving paper evidence, planning response strategy, and generating rebuttal text. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ulab-uiuc/DRPG-RebuttalAgent)
 - [Stanford Agentic Reviewer](https://paperreview.ai/tech-overview) *(2025, [adjacent])* — Source-grounded review workflow parsing PDFs and retrieving recent arXiv on originality, importance, claim support, soundness, clarity, community value, and contextualization.
@@ -166,6 +242,25 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [Author-in-the-Loop Response Generation and Evaluation](https://arxiv.org/abs/2602.11173) *(2026, [adjacent])* — Formalizes review-response generation with author input and introduces resources for response generation, revision alignment, and response evaluation.
 - [Defend: Automated Rebuttals with Minimal Author Guidance](https://arxiv.org/abs/2603.27360) *(2026, [adjacent])* — Studies automated rebuttal strategies; finds one-shot responses weak on factual correctness and targeted refutation, supporting decomposed concern-by-concern workflows.
 - [ICML 2026 Peer Review FAQ](https://icml.cc/Conferences/2026/PeerReviewFAQ) *(2026, [adjacent])* — Venue-specific author-response constraints and response limits; rebuttal agents should embed current venue rules rather than draft generic responses.
+- [MARG](https://arxiv.org/abs/2401.04259) *(2024, [adjacent])* — Multi-agent peer-review generator that decomposes paper assessment into multiple substantive reviewer comments.
+- [Reviewer2](https://arxiv.org/abs/2402.10886) *(2024, [adjacent])* — Two-stage prompt-based review-generation framework modeling the distribution of review aspects.
+- [ReviewMT](https://arxiv.org/abs/2406.05688) *(2024, [adjacent])* — Dataset/modeling work representing peer review as long-context, multi-turn reviewer-author dialogue.
+- [Are We There Yet?](https://arxiv.org/abs/2412.01708) *(2024, [adjacent])* — Peer-review risk study showing covert content injection and small review manipulations can alter scores or rankings.
+- [The AI Review Lottery](https://arxiv.org/abs/2405.02150) *(2024, [adjacent])* — Empirical study estimating prevalence and downstream effects of AI-assisted peer review.
+- [DeepReview](https://arxiv.org/abs/2503.08569) *(2025, [adjacent])* — Fine-tuned reviewer model designed to improve domain alignment and structured review generation.
+- [REMOR](https://arxiv.org/abs/2505.11718) *(2025, [adjacent])* — RL-optimized automated-review system using multi-objective reinforcement learning to improve review quality.
+- [ReviewAgents](https://arxiv.org/abs/2503.08506) *(2025, [adjacent])* — Multi-agent review framework trained on Review-CoT data for structured paper-review generation.
+- [ReviewerToo](https://arxiv.org/abs/2510.08867) *(2025, [adjacent])* — Modular peer-review framework with a rebuttal module and accept/reject prediction component.
+- [When Your Reviewer is an LLM](https://arxiv.org/abs/2509.09912) *(2025, [adjacent])* — Peer-review risk study documenting score inflation, divergence from human reviews, and prompt-injection vulnerabilities.
+- [Prompt Injection Attacks on LLM Generated Reviews](https://arxiv.org/abs/2509.10248) *(2025, [adjacent])* — Demonstrates prompt-injection attacks against automated reviews, including hidden in-paper manipulation vectors.
+- [Breaking the Reviewer](https://arxiv.org/abs/2506.11113) *(2025, [adjacent])* — Adversarial robustness study for LLM-based paper-review assessments under textual attacks.
+- [Is Your Paper Being Reviewed by an LLM?](https://arxiv.org/abs/2502.19614) *(2025, [adjacent])* — Benchmarking study of AI-text detection in peer review, useful for review-governance risk modeling.
+- [Insights from ICLR Peer Review and Rebuttal Process](https://arxiv.org/abs/2511.15462) *(2025, [adjacent])* — Empirical rebuttal-process study quantifying score changes and acceptance effects for borderline submissions.
+- [ScholarPeer](https://arxiv.org/abs/2601.22638) *(2026, [adjacent])* — Context-aware multi-agent review system adding literature search and claim verification to peer-review generation.
+- [ReViewGraph](https://arxiv.org/abs/2511.08317) *(2026, [adjacent])* — Models multi-round reviewer-author debates as heterogeneous graphs for debate-outcome prediction.
+- [RATE](https://arxiv.org/abs/2601.19637) *(2026, [adjacent])* — Reviewer-matching system that distills reviewer expertise profiles for annotation-free expertise ranking.
+- [Commitment Checklist](https://arxiv.org/abs/2603.00003) *(2026, [adjacent])* — Rebuttal-accountability audit tracking whether promised experiments, clarifications, and revisions are fulfilled in camera-ready versions.
+- [Policies Permitting LLM Use for Polishing Peer Reviews Are Currently Not Enforceable](https://arxiv.org/abs/2603.20450) *(2026, [adjacent])* — Governance study showing current detectors cannot reliably enforce policies allowing only limited LLM review polishing.
 
 ## Benchmarks and Research Arenas
 
@@ -192,6 +287,24 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [FIRE-Bench: Full-cycle Insight Rediscovery Evaluation](https://arxiv.org/abs/2602.02905) *(2026, [adjacent])* — Full-cycle research benchmark where agents explore ideas, design and run experiments, implement code, and derive evidence-supported conclusions from verified ML studies.
 - [ReplicationBench: Can AI Agents Replicate Astrophysics Research Papers?](https://openreview.net/forum?id=HuxsI5Ecao) *(2026, [adjacent])* — Paper-scale benchmark for AI agents replicating expert-validated astrophysics research tasks with full-paper replication and objective correctness checks.
 - [GitTaskBench / OpenHands Index](https://arxiv.org/abs/2508.18993) *(2025, [adjacent])* — Benchmark family for real Git tasks and coding-agent performance including OpenHands-style agents; helps evaluate the coding substrate inside research-agent systems.
+- [BioPlanner](https://arxiv.org/abs/2310.10632) *(2023, [adjacent])* — Biology protocol-planning benchmark for evaluating scientific procedure design by LLM agents.
+- [InfiAgent-DABench](https://arxiv.org/abs/2401.05507) *(2024, [adjacent])* — End-to-end data-analysis benchmark covering cleaning, statistical testing, and visualization generation.
+- [Lab-Bench](https://arxiv.org/abs/2407.10362) *(2024, [adjacent])* — Biology-research benchmark probing LLM capabilities for scientific reasoning, protocol planning, and domain tasks.
+- [SciCode](https://arxiv.org/abs/2407.13168) *(2024, [adjacent])* — Research-level scientific-coding benchmark spanning mathematics, physics, and chemistry tasks.
+- [CiteME](https://arxiv.org/abs/2407.12861) *(2024, [adjacent])* — Citation-fidelity benchmark testing whether LLM-generated scientific claims are supported by correct references.
+- [LiveIdeaBench](https://arxiv.org/abs/2412.17596) *(2024, [adjacent])* — Scientific-creativity benchmark for idea generation across keyword prompts and research domains.
+- [AI Idea Bench 2025](https://arxiv.org/abs/2504.14191) *(2025, [adjacent])* — Large-scale benchmark for evaluating AI research-idea generation across papers and evaluation axes.
+- [MLR-Bench](https://arxiv.org/abs/2505.19955) *(2025, [adjacent])* — Open-ended ML-research benchmark exposing fabrication and verification deficits in autonomous experiment workflows.
+- [ResearchCodeBench](https://arxiv.org/abs/2506.02314) *(2025, [adjacent])* — Novel ML research-code benchmark measuring semantic correctness beyond whether generated code runs.
+- [DeepScholar-Bench](https://arxiv.org/abs/2508.20033) *(2025, [adjacent])* — Live benchmark for research synthesis across coverage, coherence, and factual accuracy.
+- [ReportBench](https://arxiv.org/abs/2508.15804) *(2025, [adjacent])* — Benchmark evaluating deep-research agents on academic survey-style report generation.
+- [SciIG](https://arxiv.org/abs/2508.14273) *(2025, [adjacent])* — Research-paper introduction-writing benchmark using recent NAACL and ICLR papers.
+- [ResearchClawBench](https://arxiv.org/abs/2512.16969) *(2025, [adjacent])* — Scientist-aligned workflow benchmark probing scientific general intelligence across research tasks.
+- [SciNetBench](https://arxiv.org/abs/2601.03260) *(2026, [adjacent])* — Relation-aware benchmark for evaluating literature retrieval agents over large-scale AI literature.
+- [IDRBench](https://arxiv.org/abs/2601.06676) *(2026, [adjacent])* — Interactive deep-research benchmark testing on-demand human interaction during research tasks.
+- [ScholarGym](https://arxiv.org/abs/2601.21654) *(2026, [adjacent])* — Deep-research benchmark isolating information gathering into query planning, tool invocation, and relevance assessment.
+- [SciFlow-Bench](https://arxiv.org/abs/2602.09809) *(2026, [adjacent])* — Scientific diagram benchmark using inverse parsing to detect structurally wrong but visually plausible framework figures.
+- [HindSight](https://arxiv.org/abs/2603.15164) *(2026, [adjacent])* — Time-split ideation benchmark using future impact to test whether generated ideas materialize into meaningful work.
 
 ## Practitioner Reports, Methodology Essays, and Agent Frameworks
 
@@ -207,6 +320,14 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [CAMEL](https://github.com/camel-ai/camel) *(2023, [adjacent])* — Framework for scalable multi-agent systems, stateful memory, dynamic communication, simulated environments, data generation, and agent-scaling research.
 - [Agentic AI Scientists Are Not Built For Autonomous Scientific Discovery](https://arxiv.org/abs/2605.08956) *(2026, [adjacent])* — Position paper arguing for machine-readable preregistration, failure logging, diversity tracking, and safeguards before treating agentic AI scientists as autonomous discovery systems.
 - [AI for Auto-Research: Roadmap & User Guide](https://arxiv.org/abs/2605.18661) *(2026, [adjacent])* — End-to-end survey across four phases (Creation, Writing, Validation, Dissemination) and eight stages, identifying a stage-dependent boundary between reliable assistance and unreliable autonomy; ships taxonomy, benchmark suite, tool inventory, and practitioner playbook. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/worldbench/awesome-ai-auto-research)
+- [LLM4SR](https://arxiv.org/abs/2501.04306) *(2025, [adjacent])* — Survey framing LLMs for scientific research across hypothesis, experiment, writing, and review stages.
+- [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks) *(2025, [adjacent])* — METR methodology report measuring task horizon, relevant to long-horizon research-agent evaluation.
+- [From Automation to Autonomy](https://arxiv.org/abs/2505.13259) *(2025, [adjacent])* — Survey organizing scientific-discovery systems by autonomy level from tool-like assistance to scientist-level automation.
+- [AI4Research](https://arxiv.org/abs/2507.01903) *(2025, [adjacent])* — Survey covering comprehension, survey generation, discovery, writing, and review as AI-for-research task categories.
+- [The More You Automate, the Less You See](https://arxiv.org/abs/2509.08713) *(2025, [adjacent])* — Methodology paper warning that autonomous research systems can hide methodological flaws and verification failures.
+- [A Survey of AI Scientists](https://arxiv.org/abs/2510.23045) *(2025, [adjacent])* — Survey of autonomous and semi-autonomous AI-scientist systems spanning ideation, coding, experiments, and writing.
+- [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) *(2025, [adjacent])* — Agent-scaling methodology paper quantifying when multi-agent systems help or degrade sequential research workflows.
+- [AI-Generated Figures in Academic Publishing](https://arxiv.org/abs/2603.16159) *(2026, [adjacent])* — Policy and practice guide for responsible use of AI-generated figures in academic publishing.
 
 ## Open Problems and Gaps
 

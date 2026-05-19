@@ -36,46 +36,46 @@ When in doubt, prefer the more conservative tag.
 
 ## Entry format
 
+Entries are single-line bullets. Lead with what it is and the mechanism. Be terse — no filler ("a great resource", "the leading", "comprehensive").
+
 For papers with arXiv:
 
 ```
-- **Title** [![arXiv](https://img.shields.io/badge/arXiv-XXXX.YYYYY-B31B1B?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/XXXX.YYYYY)
-  - *(Year, [Tag])* One-to-two-sentence description focused on mechanism + why it matters in this list.
-  - Code: [link if available]
+- [Title](https://arxiv.org/abs/XXXX.YYYYY) *(Year, [Tag])* — One-sentence mechanism-focused description. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/org/repo)
 ```
 
-For repos / tools / skill packs without an arXiv paper:
+For repos / tools / skill packs:
 
 ```
-- **[Name](https://github.com/...)** — short qualifier (e.g., "skill library", "MCP server", "CLI agent")
-  - *(Year, [Tag])* One-to-two-sentence description.
+- [Name](https://github.com/org/repo) *(Year, [Tag])* — One-sentence description.
 ```
 
 For docs / blog posts:
 
 ```
-- **[Title](url)** — source label (e.g., "Anthropic docs", "OpenAI Developers blog")
-  - *(Year, [Tag])* One-line description.
+- [Title](url) *(Year, [Tag])* — One-sentence description.
 ```
 
-Be terse. No filler ("a great resource", "the leading", "comprehensive"). Lead with what it is and the mechanism.
+Drop the `Code` shield when there is no separate code repo. Append other shield badges sparingly, only when load-bearing.
 
 ## Section placement
 
-Most entries fit one of:
+The README's entry-bearing sections:
 
-- Coding-Agent CLIs
-- Skill Libraries & Workflow Packs
-- Sleep-time and Autonomous Research Loops
-- Multi-Agent Paper Writers and End-to-End Research Systems
-- AI Co-Scientist and Hypothesis Systems
-- Literature-Grounded Research Agents
-- MCP Servers and Lab Integrations for Research
+- Coding-Agent Substrates and Hosts
+- Skills, Workflow Packs, and Reusable Procedures
+- Literature Discovery and Evidence Grounding
+- Lab Integrations, Notebooks, Experiment Tracking, and Memory
+- Autonomous Execution Loops
+- End-to-End Research and Hypothesis Systems
+- Manuscript, Figure, Reproduction, and Paper-to-Agent Systems
+- Review and Rebuttal Systems
 - Benchmarks and Research Arenas
-- Practitioner Reports and Methodology Essays
-- Surveys, Position Papers, and Cross-Cutting References
+- Practitioner Reports, Methodology Essays, and Agent Frameworks
 
-A resource may legitimately fit two sections (e.g., ARIS as both a skill library and an autonomous loop). Pick the one closest to the resource's primary contribution; cross-reference inline if useful.
+A resource may legitimately fit two sections (e.g., ARIS as both a skill pack and an autonomous loop). Pick the one closest to its primary contribution.
+
+Within each section, entries are ordered CLI-native first, then CLI-compatible, then adjacent.
 
 ## Stars and maturity figures
 

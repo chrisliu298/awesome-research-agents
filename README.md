@@ -56,7 +56,7 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 
 | Stage | Useful entries |
 |---|---|
-| Idea & literature | AI-Research-SKILLs, ARIS, PaperQA2, LitLLM, OpenScholar, OpenNovelty, STORM, ResearchAgent, ai-skill-scholar, paper-search-mcp |
+| Idea & literature | AI-Research-SKILLs, ARIS, PaperQA2, LitLLM, Lune Research, OpenScholar, OpenNovelty, STORM, ResearchAgent, ai-skill-scholar, paper-search-mcp |
 | Experiment design | ARIS, The Agentic Researcher, Agent Laboratory, AI co-scientist, EvoScientist, AAAR-1.0 |
 | Coding | Claude Code, OpenAI Codex CLI, Aider, Gemini CLI, OpenHands, PaperCoder / Paper2Code |
 | Execution | ARIS, W&B MCP Server, MLflow MCP Server, MLE-bench, MLAgentBench, CORE-Bench, RE-Bench, tinyKaggleClaw |
@@ -104,6 +104,7 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 - [Zotero MCP / ZotPilot](https://github.com/54yyyu/zotero-mcp) *(2025, [CLI-compatible])* — Zotero library, citations, summaries, PDFs, and annotations via MCP; ZotPilot adds semantic search and lit-review drafting over local data.
 - [semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) *(2026, [CLI-compatible])* — Lightweight MCP server for searching and analyzing papers through the Semantic Scholar API; unofficial and small.
 - [arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) *(2025, [CLI-compatible])* — Search, download, store, and analyze arXiv papers via MCP, with security guidance on adversarial paper text and prompt injection.
+- [Lune Research](https://github.com/RetrogradeLabs/lune-mcp-server) *(2026, [CLI-compatible])*: Hosted and stdio MCP server for full-text paper search across top venues, citation traversal, evidence extraction, claim verification against verbatim quotes, and research-methodology guidance.
 - [PubMed MCP Server](https://chat.mcp.so/server/pubmed-mcp-server/cyanheads) *(rolling, [CLI-compatible])* — PubMed / NCBI E-utilities MCP with article search, retrieval, research-plan generation, filtering, citation analysis, metadata visualization, and biomedical research-agent scaffolding.
 - [ChatPaper](https://github.com/kaixindelele/ChatPaper) *(2023, [CLI-compatible])* — Open-source paper-summarization and literature-synthesis tool widely adopted as an early LLM-assisted reading workflow.
 - [Tongyi DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) *(2025, [CLI-compatible])* — Alibaba open-source agentic LLM specialized for long-horizon deep information seeking and report synthesis.

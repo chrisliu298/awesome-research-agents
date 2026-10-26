@@ -131,6 +131,7 @@ Tags are conservative and used for within-section ordering (CLI-native → CLI-c
 
 ## Lab Integrations, Notebooks, Experiment Tracking, and Memory
 
+- [AgentFEM MCP](https://github.com/haoming-luo/agentfem-mcp) *(2026, [CLI-native])* — Local MCP server with Claude Code/Codex configurations for creating, validating, running, and inspecting finite-element projects through seven typed tools; requires a separately installed AgentFEM scientific runtime.
 - [Codex as MCP server with Agents SDK](https://developers.openai.com/codex/guides/agents-sdk) *(2026, [CLI-native])* — Exposes Codex via MCP with `codex` and `codex-reply` tools so orchestrators can delegate coding to Codex while preserving reviewable traces.
 - [W&B MCP Server](https://docs.wandb.ai/platform/mcp-server) *(2026, [CLI-compatible])* — Lets agents query W&B runs, metrics, experiments, Weave traces, reports, project metadata, and W&B docs with explicit Claude Code / Codex setup paths. [![Code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/wandb/wandb-mcp-server)
 - [MLflow MCP Server and Claude Code tracing](https://mlflow.org/docs/latest/genai/mcp/) *(2026, [CLI-compatible])* — Exposes MLflow traces and experiment metadata to coding assistants; supports tracing Claude Code tool calls, tokens, latency, context, and eval scores; experimental.
